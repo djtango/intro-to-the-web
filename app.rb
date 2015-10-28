@@ -21,10 +21,10 @@ post '/named-cat' do
   erb :index
 end
 
-get '/named-cat' do
-  @name = p params[:name]
-  erb :index
-end
+# get '/named-cat' do
+#   @name = p params[:name]
+#   erb :index
+# end
 
 
 get '/random-cat' do

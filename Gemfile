@@ -1,6 +1,10 @@
-A sample Gemfile
-source "https://rubygems.org"
+# A sample Gemfile
+source "http://rubygems.org"
 
 gem "rails"
-gem “sinatra”
-gem “rspec”
+gem "sinatra"
+gem "rspec"
+gem "chromedriver-helper"
+gem "rspec-sinatra"
+gem "capybara"
+gem "selenium-webdriver"

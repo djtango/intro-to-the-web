@@ -1,20 +1,18 @@
-<html>
 <head>
   <link href="/css/application.css" rel="stylesheet" type="text/css">
   <title>Sinatra Test</title>
 </head>
 <h1>My name is <%= @name %></h1>
   <div id="cat">
-  <img src = http://bit.ly/1eze8aE>
+    <img src = http://bit.ly/1eze8aE>
   </div>
   <div>
-    <% if @name == nil %>
-    <form action='/cat-form' method="post">
-      <div>
-        <input type="text" name="name"/>
-        <input type="submit" value="Submit"/>
-      </div>
-    </form>
-    <% end %>
+      <% if @name == nil %>
+      <form action='/cat-form' method="post">
+        <div>
+          <input type="text" name="name"/>
+          <input type="submit" value="Submit"/>
+        </div>
+      </form>
+      <% end %>
   </div>
-</html>
